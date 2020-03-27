@@ -1,6 +1,6 @@
 {
   "name": "SpeakPen",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "summary": "SpeakPen SDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Guxiaodong941005/storyToy",
@@ -9,16 +9,15 @@
     "file": "LICENSE"
   },
   "authors": {
-    "Guxiaodong941005": "guxiaodong@roobo.com"
+    "Guxiaodong941005": "970768639@qq.com"
   },
   "source": {
     "git": "https://github.com/Guxiaodong941005/storyToy.git",
-    "tag": "0.1.4"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "SpeakPen/Classes/**/*",
   "requires_arc": true,
   "libraries": "c++",
   "frameworks": [
@@ -29,14 +28,6 @@
     "MobileCoreServices",
     "AVFoundation"
   ],
-  "public_header_files": [
-    "SpeakPen/Classes/Device/*.h",
-    "SpeakPen/Classes/Playback/*.h",
-    "SpeakPen/Classes/VoiceLink/RBVoiceLinkApi.h",
-    "SpeakPen/Classes/Base/RBAccessConfig.h",
-    "SpeakPen/Classes/Interactive/RBInteractiveApi.h",
-    "SpeakPen/Classes/User/*.h"
-  ],
   "dependencies": {
     "AFNetworking": [
 
@@ -45,7 +36,7 @@
 
     ]
   },
-  "vendored_frameworks": "SpeakPen/Classes/*.framework",
+  "vendored_frameworks": "SpeakPen/Classes/SpeakPen.framework",
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC"
   }
