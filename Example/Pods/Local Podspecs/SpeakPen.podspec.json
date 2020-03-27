@@ -1,0 +1,59 @@
+{
+  "name": "SpeakPen",
+  "version": "0.1.3",
+  "summary": "SpeakPen SDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Guxiaodong941005/SpeakPen",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Guxiaodong941005": "guxiaodong@roobo.com"
+  },
+  "source": {
+    "git": "https://github.com/Guxiaodong941005/SpeakPen.git",
+    "tag": "0.1.3"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": [
+    "SpeakPen/Classes/Device/*.{h,m}",
+    "SpeakPen/Classes/Playback/*.{h,m}",
+    "SpeakPen/Classes/VoiceLink/*.{h,m}",
+    "SpeakPen/Classes/RBVoiceWave/*.{h,cpp,mm}",
+    "SpeakPen/Classes/Base/*.{h,m}",
+    "SpeakPen/Classes/User/*.{h,m}",
+    "SpeakPen/Classes/Interactive/*.{h,m}"
+  ],
+  "requires_arc": true,
+  "libraries": "c++",
+  "frameworks": [
+    "UIKit",
+    "WebKit",
+    "CoreTelephony",
+    "SystemConfiguration",
+    "MobileCoreServices",
+    "AVFoundation"
+  ],
+  "public_header_files": [
+    "SpeakPen/Classes/Device/*.h",
+    "SpeakPen/Classes/Playback/*.h",
+    "SpeakPen/Classes/VoiceLink/RBVoiceLinkApi.h",
+    "SpeakPen/Classes/Base/RBAccessConfig.h",
+    "SpeakPen/Classes/Interactive/RBInteractiveApi.h",
+    "SpeakPen/Classes/User/*.h"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "YYModel": [
+
+    ]
+  },
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC"
+  }
+}
