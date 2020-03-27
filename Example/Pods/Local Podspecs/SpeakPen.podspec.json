@@ -36,7 +36,7 @@
 
     ]
   },
-  "vendored_frameworks": "SpeakPen/Classes/SpeakPen.framework",
+  "vendored_frameworks": "SpeakPen.framework",
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC"
   }

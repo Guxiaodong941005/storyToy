@@ -146,7 +146,6 @@
 		40F95663F6A5768C5F4E543A8C92A03C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		41C85539BE102A795F65D543BD115A6F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		42CB60431AA5D06DC66CCD63D3C1EAF5 /* Pods-SpeakPen_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpeakPen_Tests-Info.plist"; sourceTree = "<group>"; };
-		44A852F09B90DA88917E1968848F0C9C /* SpeakPen.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpeakPen.framework; path = SpeakPen/Classes/SpeakPen.framework; sourceTree = "<group>"; };
 		461594DED5E84B7CAB5CE544E0145704 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		465F2B4F9C2BBB1AA870E739AE1F249F /* YYModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYModel-Info.plist"; sourceTree = "<group>"; };
 		472D64C1B84F4261D6BC5D81A87F9847 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
@@ -167,6 +166,7 @@
 		7F40D72240A93CC957112E3D7577E629 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		80274D3A36DB909D9C09DC1BE23AA8B3 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		80F91DF26AEDF4BFC40FA9C27E0AF0F1 /* Pods-SpeakPen_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpeakPen_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		82DEBA6FA6D9A9992921618B4ADE48E5 /* SpeakPen.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpeakPen.framework; sourceTree = "<group>"; };
 		8388C75053A4EE6A4C93292E3A0E4AA7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		846633C0DECEB17750EB4D4588CDDCDF /* SpeakPen.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SpeakPen.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		86FFEB9D44962F9951B4D2B948C980FC /* YYModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.debug.xcconfig; sourceTree = "<group>"; };
@@ -317,7 +317,7 @@
 		28A39B6DAD38E2F7F7AC6B7D470ED023 /* SpeakPen */ = {
 			isa = PBXGroup;
 			children = (
-				F4A5B0E44B829A5704247F35FD933A06 /* Frameworks */,
+				D4A503547B054A1BD21ECEFBE17C7C41 /* Frameworks */,
 				919DC87D80961FE2B2DAE493A2A2A26A /* Pod */,
 				07501EC14D7EFA6CDE9BAA8699B2272A /* Support Files */,
 			);
@@ -494,6 +494,14 @@
 			);
 			sourceTree = "<group>";
 		};
+		D4A503547B054A1BD21ECEFBE17C7C41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82DEBA6FA6D9A9992921618B4ADE48E5 /* SpeakPen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D68CA58901FBF589D75F5E40F1EAF5BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -514,14 +522,6 @@
 			);
 			name = YYModel;
 			path = YYModel;
-			sourceTree = "<group>";
-		};
-		F4A5B0E44B829A5704247F35FD933A06 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				44A852F09B90DA88917E1968848F0C9C /* SpeakPen.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
