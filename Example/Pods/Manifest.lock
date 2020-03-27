@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - SpeakPen (0.1.3):
+  - SpeakPen (0.1.4):
     - AFNetworking
     - YYModel
   - YYModel (1.0.4)
@@ -33,7 +33,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  SpeakPen: 4cd9873e711e4dfaff889832aa6903a03607fc77
+  SpeakPen: 3ed7e94f25b79a941d30001a9d55ca50604f84f5
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
 PODFILE CHECKSUM: 01f04043d43016ed5a5aa748ddeb26c069768add

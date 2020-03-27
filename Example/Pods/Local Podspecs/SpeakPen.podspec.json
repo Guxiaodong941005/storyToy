@@ -1,9 +1,9 @@
 {
   "name": "SpeakPen",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "summary": "SpeakPen SDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Guxiaodong941005/SpeakPen",
+  "homepage": "https://github.com/Guxiaodong941005/storyToy",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,21 +12,13 @@
     "Guxiaodong941005": "guxiaodong@roobo.com"
   },
   "source": {
-    "git": "https://github.com/Guxiaodong941005/SpeakPen.git",
-    "tag": "0.1.3"
+    "git": "https://github.com/Guxiaodong941005/storyToy.git",
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": [
-    "SpeakPen/Classes/Device/*.{h,m}",
-    "SpeakPen/Classes/Playback/*.{h,m}",
-    "SpeakPen/Classes/VoiceLink/*.{h,m}",
-    "SpeakPen/Classes/RBVoiceWave/*.{h,cpp,mm}",
-    "SpeakPen/Classes/Base/*.{h,m}",
-    "SpeakPen/Classes/User/*.{h,m}",
-    "SpeakPen/Classes/Interactive/*.{h,m}"
-  ],
+  "source_files": "SpeakPen/Classes/**/*",
   "requires_arc": true,
   "libraries": "c++",
   "frameworks": [
@@ -53,6 +45,7 @@
 
     ]
   },
+  "vendored_frameworks": "SpeakPen/Classes/*.framework",
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC"
   }

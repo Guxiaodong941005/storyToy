@@ -10,6 +10,16 @@
 #endif
 #endif
 
+#import "RBAccessConfig.h"
+#import "RBAuthApi.h"
+#import "RBDeviceApi.h"
+#import "RBDeviceModel.h"
+#import "RBPlayerApi.h"
+#import "RBResourceModel.h"
+#import "RBUserApi.h"
+#import "RBUserInfoApi.h"
+#import "RBUserModel.h"
+#import "SpeakPen.h"
 
 FOUNDATION_EXPORT double SpeakPenVersionNumber;
 FOUNDATION_EXPORT const unsigned char SpeakPenVersionString[];
