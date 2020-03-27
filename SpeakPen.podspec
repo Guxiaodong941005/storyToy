@@ -54,6 +54,6 @@ TODO: Add long description of the pod here.
   s.dependency 'AFNetworking'
   s.dependency 'YYModel'
   #依赖自己的或别人的Framework文件
-  s.vendored_frameworks = 'SpeakPen/Classes/SpeakPen.framework'
+  s.vendored_frameworks = 'SpeakPen.framework'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC'}
 end
