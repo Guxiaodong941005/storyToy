@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SpeakPen'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'SpeakPen SDK.'
 
 # This description is used to generate tags and improve search results.
@@ -24,13 +24,13 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Guxiaodong941005/storyToy'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Guxiaodong941005' => 'guxiaodong@roobo.com' }
+  s.author           = { 'Guxiaodong941005' => '970768639@qq.com' }
   s.source           = { :git => 'https://github.com/Guxiaodong941005/storyToy.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'SpeakPen/Classes/**/*'
+#  s.source_files = 'SpeakPen/Classes/**/*'
   
   s.requires_arc = true
 
@@ -44,16 +44,16 @@ TODO: Add long description of the pod here.
 #                    ]
   s.libraries = 'c++'
   s.frameworks = 'UIKit','WebKit','CoreTelephony','SystemConfiguration','MobileCoreServices','AVFoundation'
-  s.public_header_files = ['SpeakPen/Classes/Device/*.h',
-                           'SpeakPen/Classes/Playback/*.h',
-                           'SpeakPen/Classes/VoiceLink/RBVoiceLinkApi.h',
-                           'SpeakPen/Classes/Base/RBAccessConfig.h',
-                           'SpeakPen/Classes/Interactive/RBInteractiveApi.h',
-                           'SpeakPen/Classes/User/*.h',
-                          ]
+#  s.public_header_files = ['SpeakPen/Classes/Device/*.h',
+#                           'SpeakPen/Classes/Playback/*.h',
+#                           'SpeakPen/Classes/VoiceLink/RBVoiceLinkApi.h',
+#                           'SpeakPen/Classes/Base/RBAccessConfig.h',
+#                           'SpeakPen/Classes/Interactive/RBInteractiveApi.h',
+#                           'SpeakPen/Classes/User/*.h',
+#                          ]
   s.dependency 'AFNetworking'
   s.dependency 'YYModel'
   #依赖自己的或别人的Framework文件
-  s.vendored_frameworks = 'SpeakPen/Classes/*.framework'
+  s.vendored_frameworks = 'SpeakPen/Classes/SpeakPen.framework'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC'}
 end
