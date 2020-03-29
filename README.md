@@ -22,7 +22,7 @@ pod 'SpeakPen'
 
 ## Author
 
-Guxiaodong941005, guxiaodong@roobo.com
+Guxiaodong941005
 
 ## License
 
