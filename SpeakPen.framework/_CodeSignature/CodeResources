@@ -4,45 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/RBAccessConfig.h</key>
-		<data>
-		zc/h6LP8ZAoSJNN230hefANJZw0=
-		</data>
-		<key>Headers/RBAuthApi.h</key>
-		<data>
-		nUvS+4EI3+qIUbN8SEnYPhY+9xk=
-		</data>
-		<key>Headers/RBDeviceApi.h</key>
-		<data>
-		HRRnfmDt5OR0j5+uTU1PmZofY8g=
-		</data>
-		<key>Headers/RBDeviceModel.h</key>
-		<data>
-		VTEWZNu5CIGylg6I9YqQoA3evLo=
-		</data>
-		<key>Headers/RBPlayerApi.h</key>
-		<data>
-		wsHuAUf015++I39yIL6pIzXAtFY=
-		</data>
-		<key>Headers/RBResourceModel.h</key>
-		<data>
-		Dqu09ojI+QDS2NRktja8CIJLV60=
-		</data>
-		<key>Headers/RBUserApi.h</key>
-		<data>
-		8P3rMJKsYHaaFn3aHZKIe0VPWK8=
-		</data>
-		<key>Headers/RBUserInfoApi.h</key>
-		<data>
-		ik9lTOTS0wDQyNKStXK7Z05Y8YM=
-		</data>
-		<key>Headers/RBUserModel.h</key>
-		<data>
-		sAD46PMktVTYKtDSmk5WoXUWdqo=
-		</data>
 		<key>Headers/SpeakPen.h</key>
 		<data>
-		/We0z2mSmgRNMDwlwUorV3t0eAY=
+		FHXh/DCyZSqJEbT5OIUgSAG4iLU=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -225,114 +189,15 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/RBAccessConfig.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zc/h6LP8ZAoSJNN230hefANJZw0=
-			</data>
-			<key>hash2</key>
-			<data>
-			ixiEv7/S7uGXhq8x3rHoq/L/kcLn5yI2tu/TqgZ7UrE=
-			</data>
-		</dict>
-		<key>Headers/RBAuthApi.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nUvS+4EI3+qIUbN8SEnYPhY+9xk=
-			</data>
-			<key>hash2</key>
-			<data>
-			ToyU6IqGYZQcHcbNwEgZQY8QsTdXITT3gls+VbW2pS4=
-			</data>
-		</dict>
-		<key>Headers/RBDeviceApi.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HRRnfmDt5OR0j5+uTU1PmZofY8g=
-			</data>
-			<key>hash2</key>
-			<data>
-			yTg54GZfLRhn6XtN2yqxPT2t9Gr8Qv+ACr0J/ZW6mxU=
-			</data>
-		</dict>
-		<key>Headers/RBDeviceModel.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VTEWZNu5CIGylg6I9YqQoA3evLo=
-			</data>
-			<key>hash2</key>
-			<data>
-			gU1yXNzeAUEiRXOn4mBOftzRoJ24jkEreEyjQvLXzZY=
-			</data>
-		</dict>
-		<key>Headers/RBPlayerApi.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wsHuAUf015++I39yIL6pIzXAtFY=
-			</data>
-			<key>hash2</key>
-			<data>
-			vgEOWMV67J4sXpUTagUZ4aXZ92QDePsXA6tdkSuEW5U=
-			</data>
-		</dict>
-		<key>Headers/RBResourceModel.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Dqu09ojI+QDS2NRktja8CIJLV60=
-			</data>
-			<key>hash2</key>
-			<data>
-			gl05wz4YXLKA0pR2qEidfYHESfJjLhmUyQYGmpTRCSc=
-			</data>
-		</dict>
-		<key>Headers/RBUserApi.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8P3rMJKsYHaaFn3aHZKIe0VPWK8=
-			</data>
-			<key>hash2</key>
-			<data>
-			MTLHsqzs2prgRHJxkOnhCCRgsR/TPl8cn9LGFn2rLJo=
-			</data>
-		</dict>
-		<key>Headers/RBUserInfoApi.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ik9lTOTS0wDQyNKStXK7Z05Y8YM=
-			</data>
-			<key>hash2</key>
-			<data>
-			bdoYYqPI/E7pVNScXvK+3kRwhxZK6wZ1aDCkD7WSb2I=
-			</data>
-		</dict>
-		<key>Headers/RBUserModel.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sAD46PMktVTYKtDSmk5WoXUWdqo=
-			</data>
-			<key>hash2</key>
-			<data>
-			YtoAE8bDUupIJeNdoaDD5QanvtQn5IVamS6z6KcT1JY=
-			</data>
-		</dict>
 		<key>Headers/SpeakPen.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/We0z2mSmgRNMDwlwUorV3t0eAY=
+			FHXh/DCyZSqJEbT5OIUgSAG4iLU=
 			</data>
 			<key>hash2</key>
 			<data>
-			IiK0rtTyV3a5tKbn1SIu+ubqbLHK89bkACRoUDQiowg=
+			HPkjO27v5Es83jjfDEeONcs8Mtfk4435m1+JyV6uQxs=
 			</data>
 		</dict>
 		<key>MitLoading.bundle/en.lproj/Localizable.strings</key>

@@ -2,21 +2,20 @@
 //  SpeakPen.h
 //  SpeakPen
 //
-//  Created by roobo on 2020/3/26.
+//  Created by stp on 2020/3/26.
 //  Copyright © 2020 stp. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-#import <SpeakPen/RBAuthApi.h>
-#import <SpeakPen/RBUserModel.h>
-#import <SpeakPen/RBDeviceModel.h>
-#import <SpeakPen/RBDeviceApi.h>
-#import <SpeakPen/RBUserApi.h>
-#import <SpeakPen/RBUserInfoApi.h>
-#import <SpeakPen/RBPlayerApi.h>
-#import <SpeakPen/RBResourceModel.h>
-#import <SpeakPen/RBAccessConfig.h>
+#import <SpeakPen/STPAuthApi.h>
+#import <SpeakPen/STPUserModel.h>
+#import <SpeakPen/STPDeviceModel.h>
+#import <SpeakPen/STPDeviceApi.h>
+#import <SpeakPen/STPUserApi.h>
+#import <SpeakPen/STPUserInfoApi.h>
+#import <SpeakPen/STPPlayerApi.h>
+#import <SpeakPen/STPResourceModel.h>
 
 //! Project version number for SpeakPen.
 FOUNDATION_EXPORT double SpeakPenVersionNumber;
