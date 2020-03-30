@@ -4,9 +4,37 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/SpeakPen.h</key>
+		<key>Headers/STPAuthApi.h</key>
 		<data>
-		FHXh/DCyZSqJEbT5OIUgSAG4iLU=
+		FULYPDq3zFe9Zlb5lamPr1bNJBg=
+		</data>
+		<key>Headers/STPDeviceApi.h</key>
+		<data>
+		9FNft83PjVlI6hHithCrOEV6yJY=
+		</data>
+		<key>Headers/STPDeviceModel.h</key>
+		<data>
+		uQdSPxpVZMeyVaGAwvkhmq0CzK0=
+		</data>
+		<key>Headers/STPPlayerApi.h</key>
+		<data>
+		GTi0Cc7GRpUsI/Oeg22mxfW3csQ=
+		</data>
+		<key>Headers/STPResourceModel.h</key>
+		<data>
+		LHZy85ZALCVmxzP7FQC1lylcSvw=
+		</data>
+		<key>Headers/STPUserApi.h</key>
+		<data>
+		TraYhO95ecASwRQgsgh/BEoFbIA=
+		</data>
+		<key>Headers/STPUserInfoApi.h</key>
+		<data>
+		nMgSiO+G2BSJu5J3NB9C2Z1rddc=
+		</data>
+		<key>Headers/STPUserModel.h</key>
+		<data>
+		HSJSUYiYNj8fPALzE02PTfcs1vA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -189,15 +217,92 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/SpeakPen.h</key>
+		<key>Headers/STPAuthApi.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FHXh/DCyZSqJEbT5OIUgSAG4iLU=
+			FULYPDq3zFe9Zlb5lamPr1bNJBg=
 			</data>
 			<key>hash2</key>
 			<data>
-			HPkjO27v5Es83jjfDEeONcs8Mtfk4435m1+JyV6uQxs=
+			JE1ZF8VG8kyToUZIxnnhvry7bGod1PsiI+TSOLVpnjI=
+			</data>
+		</dict>
+		<key>Headers/STPDeviceApi.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9FNft83PjVlI6hHithCrOEV6yJY=
+			</data>
+			<key>hash2</key>
+			<data>
+			cD1Ua9C8QRZhnLsvVPrLzoq3uU6FomIDr882eC3wOas=
+			</data>
+		</dict>
+		<key>Headers/STPDeviceModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uQdSPxpVZMeyVaGAwvkhmq0CzK0=
+			</data>
+			<key>hash2</key>
+			<data>
+			xGIULvTp1f4LDJynd3A5lhqxuJQwV4ct8wWE1WexceI=
+			</data>
+		</dict>
+		<key>Headers/STPPlayerApi.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GTi0Cc7GRpUsI/Oeg22mxfW3csQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			DbRTM0epvauhZwc0pK81sXdTwMOt/vrgp00+RuiZUOA=
+			</data>
+		</dict>
+		<key>Headers/STPResourceModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LHZy85ZALCVmxzP7FQC1lylcSvw=
+			</data>
+			<key>hash2</key>
+			<data>
+			hC0/SoJpn5V+aSHiZ/ZcskqSQIHLiTi9Y2leBkxT2AU=
+			</data>
+		</dict>
+		<key>Headers/STPUserApi.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TraYhO95ecASwRQgsgh/BEoFbIA=
+			</data>
+			<key>hash2</key>
+			<data>
+			C+RxwzfosT1SGh8heoI9Ddk7VT+8TVW38i2CXGdaDDg=
+			</data>
+		</dict>
+		<key>Headers/STPUserInfoApi.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nMgSiO+G2BSJu5J3NB9C2Z1rddc=
+			</data>
+			<key>hash2</key>
+			<data>
+			wCm8jry2InuX5rnxfJWQ2lUgqLMPphjv+hOPrvAskPo=
+			</data>
+		</dict>
+		<key>Headers/STPUserModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HSJSUYiYNj8fPALzE02PTfcs1vA=
+			</data>
+			<key>hash2</key>
+			<data>
+			fCUy9insbpyLbN/VKurFJr8rqElbvxcHhtTvdD837Uc=
 			</data>
 		</dict>
 		<key>MitLoading.bundle/en.lproj/Localizable.strings</key>
