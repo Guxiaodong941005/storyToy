@@ -64,6 +64,14 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)login:(NSString*_Nonnull)phoneNum passWord:(NSString*_Nonnull)passWord completionBlock:(nullable void (^)(STPUserModel *user,NSError *error)) completionBlock;
 
+/**
+ 第三方登录
+
+ @param phone 手机号码
+ @param passwd 用户密码
+ @param thirdCode 第三方code
+ */
++(void)loginEx:(NSString*)phone passwd:(NSString*)passwd thirdCode:(NSString*)thirdCode block:(void (^)(STPUserModel *user,NSError *error))block;
 
 /**
  更改手机号码

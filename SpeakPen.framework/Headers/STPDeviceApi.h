@@ -13,36 +13,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface STPDeviceApi : NSObject
 
-#pragma mark ----------·--------- 设备交互 ------------------------
-
-/**
- 发送文本内容
- @param text 文字内容
- */
-+ (void)sendTTSText:(NSString *)text block:(void (^)(BOOL isSuccess,NSError*_Nullable error))block;
-
-/**
- 发送声音文件
- @param filePath 文件url 路径
- @param progressBlock 上传进度
- @param resultBlock 上传结果
- */
-+ (void)sendVoice:(NSString *)filePath length:(NSUInteger)length progressBlock:(void(^)(NSProgress *progress))progressBlock  resultBlock:(void (^)(id  response, NSError * _Nullable))resultBlock;
-
-/**
- 获取聊天记录的列表
- @param fromID 首次为0 其他使用当前聊天记录列表最后的STPChatModel的chatID
- */
-+(void)getChatMessageList:(NSString*)fromID block:(void (^)(STPChatList *chatList,NSError *error))block;
-
-/**
- 设置用户推送的token 
- @param pushToken apple pushToken
- */
-+ (void)setPushToken:(NSString *_Nonnull)pushToken block:(void (^)(BOOL  isSuccess,NSError *error)) block;
-
-
 #pragma mark ------------------- 设备信息 ------------------------
+
+/**
+ 获取配网的结果  建议采用定时轮询
+ */
++(void)getDeviceBindInfo:(void (^)(STPBindInfo* _Nullable response, NSError *_Nullable error))block;
 
 /**
  获取用户的所有设备
@@ -63,12 +39,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 #pragma mark ------------------- 设备控制 ------------------------
-
-/**
- 发送自定义控制命令(如耳灯 童锁)
- @param params 请求参数
- */
-+ (void)sendCustomCommand:(NSDictionary*)params block:(void (^)(BOOL isSuccess,NSError *error))block;
 
 /**
  重启设备
@@ -96,9 +66,10 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)changeDeviceVolume:(NSInteger )voiceValue block:(void (^)(BOOL isSuccess,NSError* _Nullable error)) block;
 
 /**
- 删除当前的设备
+ 解除绑定当前的设备
  */
-+ (void)deleteDevice:(void (^)(BOOL isSuccess,NSError *_Nullable error)) block;
++ (void)unbindDevice:(void (^)(BOOL isSuccess,NSError *_Nullable error)) block;
+
 #pragma mark -------------------版本升级------------------------
 
 /**
@@ -111,24 +82,5 @@ NS_ASSUME_NONNULL_BEGIN
  */
 +(void)updateDevice:(void (^)(id response, NSError * _Nullable error))block;
 
-/**
-  获取闹钟列表
- */
-+(void)getAlarmList:(void (^)(STPAlarmList *alarmList, NSError * _Nullable error))block;
-
-/**
- 增加闹钟
- */
-+ (void)addAlarm:(STPAlarmModel*)model block:(void (^)(STPAlarmModel *model,NSError *error)) block;
-
-/**
- 修改闹钟
- */
-+ (void)editAlarm:(STPAlarmModel*)model block:(void (^)(BOOL isSuccess,NSError *error)) block;
-
-/**
- 删除闹钟
- */
-+ (void)deleteAlarm:(NSArray*)alarmIds block:(void (^)(BOOL isSuccess,NSError *error)) block;
 @end
 NS_ASSUME_NONNULL_END
