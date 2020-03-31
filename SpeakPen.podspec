@@ -51,7 +51,7 @@ TODO: Add long description of the pod here.
 #                           'SpeakPen/Classes/Interactive/RBInteractiveApi.h',
 #                           'SpeakPen/Classes/User/*.h',
 #                          ]
-  s.dependency 'AFNetworking'
+  s.dependency 'AFNetworking','~> 3.2.1'
   s.dependency 'YYModel'
   #依赖自己的或别人的Framework文件
   s.vendored_frameworks = 'SpeakPen.framework'
