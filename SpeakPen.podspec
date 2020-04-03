@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SpeakPen'
-  s.version          = '0.1.13'
+  s.version          = '0.1.15'
   s.summary          = 'SpeakPen SDK.'
 
 # This description is used to generate tags and improve search results.
